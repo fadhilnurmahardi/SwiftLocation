@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/malcommac/SwiftLocation.git", :tag => s.version.to_s }
   s.source_files  = "Sources/**/*"
   s.frameworks  = "Foundation","CoreLocation","MapKit"
-  s.dependency 'SwiftyJSON', '~> 4.0.0-alpha.1'
+  s.dependency 'SwiftyJSON', '~> 3.1.4'
 end
